@@ -1,0 +1,47 @@
+.container{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("green.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(29, 97, 16); */
+    padding: 10px 30px;
+    width: 300px;
+    margin: auto;
+}
+h1{
+    color: rgb(238, 208, 39);
+    text-shadow: 5px 5px 10px black;
+}
+h3{
+    font-style: italic;
+}
+
+button{
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 150px;
+    height: 30px;
+    /* display: block; */
+    margin: 5px;
+    font-size: 15px;
+    background-color:goldenrod;
+    border-radius: 5px;
+    border: none;
+    color:  rgb(29, 97, 16);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#start-el,#newCard-el{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
